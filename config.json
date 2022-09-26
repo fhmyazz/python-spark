@@ -1,9 +1,25 @@
 {
     "postgresql":{
-        "host":"localhost",
-        "db":"digitalskola",
+        "host":"172.21.72.21",
+        "db":"postgres",
         "user":"postgres",
-        "pwd":"postgres",
+        "pwd":"admin",
         "port":5432
+    },
+    
+    "warehouse":{
+        "host":"172.21.72.21",
+        "db":"dwh_digitalskola",
+        "user":"postgres",
+        "pwd":"admin",
+        "port":5432
+    },
+
+    "hadoop":{
+        "client":"http://localhost:9870"
+    },
+
+    "spark":{
+        "ip":"spark://DESKTOP-8AHJDS9.localdomain:7077"
     }
 }
